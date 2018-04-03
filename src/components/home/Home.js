@@ -1,8 +1,20 @@
 import React, { Component } from "react";
+import teams from "../../_api/teams";
 
 class Home extends Component {
   render() {
-    return <div>home</div>;
+    let showTeams = teams.map(t => {
+      return (
+        <div key={t.name}>
+          <img
+            src={require(`../../_public/logos/${t.name}.png`)}
+            alt={t.name}
+          />
+        </div>
+      );
+    });
+
+    return <div>{showTeams}</div>;
   }
 }
 

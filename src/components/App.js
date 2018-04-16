@@ -1,8 +1,10 @@
-import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
-import Home from "./home/Home";
-import ErrorPage from "./ErrorPage";
-import "../style/App.css";
+import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import Home from './home/Home';
+import ErrorPage from './ErrorPage';
+import '../style/App.css';
+import '../style/Header.css';
+import '../style/Home.css';
 
 class App extends Component {
   render() {

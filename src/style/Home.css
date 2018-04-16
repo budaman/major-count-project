@@ -1,0 +1,21 @@
+.SearchTeams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.team-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-image {
+  width: 100px;
+  cursor: pointer;
+}

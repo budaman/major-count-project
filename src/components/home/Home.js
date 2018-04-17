@@ -1,8 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import Header from '../header/Header';
+import SearchTeams from './search/SearchTeams';
 
 class Home extends Component {
   render() {
-    return <div>home</div>;
+    return (
+      <div className="home">
+        <Header />
+        <SearchTeams />
+      </div>
+    );
   }
 }
 
